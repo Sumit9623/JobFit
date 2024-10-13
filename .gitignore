@@ -1,0 +1,47 @@
+# Node modules for backend
+Backend/node_modules/
+
+# Node modules for frontend
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+Backend/.env
+frontend/.env
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# OS files
+.DS_Store               # macOS
+Thumbs.db               # Windows
+
+# Build output for frontend (React)
+frontend/build/
+frontend/dist/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Coverage directory used by tools like istanbul
+Backend/coverage/
+frontend/coverage/
+
+# IDE and Editor settings
+.vscode/
+.idea/
+
+# Miscellaneous
+package-lock.json       # Lock file for npm
+yarn.lock               # Lock file for yarn
